@@ -2,10 +2,11 @@
 
 body {
   background: gray;
+  font-family: "Open Sans Semibold";
 }
 /* 
 ==============================================
-                                  HEADER
+                                  HEADER NAVIGATION
  =============================================*/
 ul,
 li {
@@ -24,7 +25,6 @@ li {
 }
 
 .menu__item a {
-  font-family: "Open Sans Semibold";
   font-size: 20px;
   color: #212121;
 }
@@ -36,4 +36,48 @@ li {
 
 .navigation {
   padding-right: 23px; /* Создано что бы подвинуть справа навигацию, там дальше посмотрим*/
+}
+
+/* 
+==============================================
+                                  HEADER MAIN
+ =============================================*/
+
+.header > div {
+  color: white;
+  background-image: url(/img/header.png);
+  padding: 180px 0;
+  text-align: center;
+  background-size: cover;
+  background-position: 0 100%;
+}
+
+.header__title {
+  font-size: 55px;
+}
+.header__text {
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+.button {
+  padding: 10px 25px;
+  margin: 0 10px;
+  color: white;
+  transition: 0.3s;
+}
+
+.button_empty {
+  background: transparent;
+  border: 2px solid white;
+}
+
+.button_full {
+  background: #00897b;
+  border: 2px solid #00897b;
+}
+.button_empty:hover,
+.button_full:hover {
+  border: 2px dotted white;
+  background: #00897b;
 }
