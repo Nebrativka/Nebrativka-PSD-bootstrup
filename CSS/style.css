@@ -44,7 +44,7 @@ li {
                                   HEADER MAIN
  =============================================*/
 
-.header > div {
+.header {
   color: white;
   background-image: url(/img/header.png);
   padding: 180px 0;
