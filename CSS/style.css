@@ -81,6 +81,7 @@ li {
 .button_full:hover {
   border: 2px dotted white;
   background: #00897b;
+  cursor: pointer;
 }
 
 /* About US*/
@@ -111,4 +112,56 @@ li {
   margin-bottom: 20px;
   font-family: "Open Sans Semibold";
   font-size: 20px;
+}
+
+/*-- ==============================================================================
+        
+                                            OUR SERVICES
+        
+==============================================================================*/
+.services {
+  color: black;
+  background: #e4fdf9;
+  text-align: center;
+  padding-top: 165px;
+  padding-bottom: 125px;
+}
+
+.our_card {
+  background: white;
+  padding: 50px 20px 40px;
+  transition: 0.3s;
+  margin-bottom: 30px;
+}
+
+.our_card:hover {
+  background-color: #00897b;
+  color: white;
+  -webkit-box-shadow: 4px 6px 10px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 6px 10px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 6px 10px -4px rgba(0, 0, 0, 0.75);
+}
+.icon {
+  font-size: 60px;
+  color: black;
+  transition: 0.3s;
+}
+
+.our_card:hover .icon {
+  color: white;
+}
+
+.button-services {
+  text-transform: uppercase;
+  border: 2px solid black;
+  background: transparent;
+  padding: 12px 12px 12px;
+  font-family: "Open Sans Semibold";
+  color: black;
+  transition: 0.3s;
+}
+
+.our_card:hover .button-services {
+  border: 2px solid white;
+  color: white;
 }
