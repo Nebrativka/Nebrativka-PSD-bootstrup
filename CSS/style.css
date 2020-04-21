@@ -38,11 +38,6 @@ li {
     color: #868686;
 }
 
-.navigation {
-    padding-right: 23px;
-    /* Создано что бы подвинуть справа навигацию, там дальше посмотрим*/
-}
-
 
 /* 
 ==============================================
@@ -344,4 +339,58 @@ li {
 
 .icons a:hover i:nth-child(2) {
     color: #f0f1f1;
+}
+
+
+/*==============================================================================
+    
+                                        BLOG
+    
+    ==============================================================================*/
+
+.left>div:first-child {
+    order: 1;
+}
+
+.left>div:last-child {
+    order: 2;
+}
+
+.right>div:first-child {
+    order: 2;
+}
+
+.right>div:last-child {
+    order: 1;
+}
+
+.blog a {
+    font-size: 25px;
+    color: #00897b;
+    font-family: "Open Sans Semibold";
+}
+
+.blog {
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.blog i {
+    margin-right: 15px;
+}
+
+.blog span {
+    font-size: 17px;
+    font-family: "Open Sans Semibold";
+    margin-right: 35px;
+}
+
+.blog div {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.blog p {
+    font-size: 15px;
 }
